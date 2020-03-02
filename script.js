@@ -56,7 +56,7 @@ dataInput.addEventListener('keypress', function(keyPressed){
         var day = date.getDate();
         
 
-        newSpan.innerHTML = "Delete   ";
+        newSpan.innerHTML = "🗑    ";
         var now = " " + "Добавлено: " + day + "-" + month  + "-" + year +" года"; 
            var newItem = this.value; // получение данных из поля input;
         this.value = " "; }

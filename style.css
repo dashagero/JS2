@@ -1,5 +1,6 @@
 span{
-    color: red;
+   
+    cursor: pointer;
 }
 body{
     width: 600px;
@@ -8,13 +9,14 @@ body{
 }
 h1{
     text-align: center;
-   font-size: 80px;
+   font-size: 60px;
 }
 .input{
    width: 600px;
    height: 50px;
    font-size: 35px;
    text-align: center;
+   background-color: rgba(0, 0, 0, 0.075);
    margin-bottom: 20px;
 }
 .btn1 {
@@ -30,7 +32,7 @@ h1{
     background-color: rgb(57, 201, 14); 
 }
 .btn2 {
-    margin-left: 200px;
+    margin-left: 100px;
     background-color: rgba(216, 57, 57, 0.329);
     font-size: 30px;
     padding: 10px 30px;
@@ -48,8 +50,13 @@ h1{
     color: white;
     text-align: center;
     cursor: pointer;
-    margin: 60px 200px;
+    margin: 60px 180px;
 }
 li{
     font-size: 30px;
+    border: solid 1px;
+    padding: 8px 10px;
+    width: 540px;
+    border-color: black;
+
 }
